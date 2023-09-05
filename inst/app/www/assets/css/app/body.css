@@ -1,0 +1,8 @@
+/* Custom body */
+body {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user_select: none;
+	user-select: none;
+}

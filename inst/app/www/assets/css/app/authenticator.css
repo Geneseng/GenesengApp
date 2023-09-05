@@ -1,0 +1,49 @@
+#auth-msg_auth {
+	background-color:#FF595E; 
+	border-color:#FF595E; 
+}
+
+.panel-body{
+	font-family:Arial;
+}
+
+#auth-auth-mod {
+	overflow-y: hidden !important;
+}
+
+
+#auth-go_auth {
+	background-color: #5E72E3; 
+	border-color:#5E72E3;
+}
+
+.panel-primary{
+	border-color:#5E72E3; 
+	margin-top:-15%;
+}
+
+#auth-user_id:focus {
+	border-color: #5E72E3; 
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px #5E72E3;
+}
+
+
+#auth-user_pwd:focus {
+	border-color: #5E72E3; 
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px #5E72E3;
+}
+
+#first_last_name_id:focus {
+	border-color: #5E72E3; 
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px #5E72E3;
+}
+
+#email-id-txt:focus {
+	border-color: #5E72E3; 
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px #5E72E3;
+}
+
+#username-id-txt:focus {
+	border-color: #5E72E3; 
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px #5E72E3;
+}

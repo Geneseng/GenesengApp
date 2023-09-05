@@ -1,0 +1,71 @@
+/*##############################STEP1#########################################*/
+
+.content_img{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-right: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border:none;
+}
+
+.content_img div{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: black;
+    color: white;
+    margin-bottom: 5px;
+    font-family: sans-serif;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: visibility 0s, opacity 0.2s linear;  
+    transition: visibility 0s, opacity 0.2s linear;
+}
+
+.content_img:hover{
+  cursor: pointer;
+}    
+
+.content_img:hover div{
+    width: 150px;
+    padding: 8px 15px;
+    visibility: visible;
+    opacity: 0.7;   
+}
+
+
+
+
+/*############################################################################*/
+
+.btn-upload {
+  height:150px; 
+  font-size:25px; 
+  background-color:#5E72E3; 
+ /*  border-color:#5E72E3;
+  color:#5E72E3;*/
+}
+
+.btn-upload:hover, :target{
+  color:white;
+  background-color:#5E72E3; 
+}
+
+/*
+.btn-default:not(:disabled):not(.disabled).active, 
+.btn-default:not(:disabled):not(.disabled):active, 
+.show>.btn-default.dropdown-toggle {
+  border-color:#5E72E3;
+  background-color:#5E72E3; 
+}
+
+#tabular_btn:focus, #image_btn:focus, #text_btn:focus, #video_btn:focus {
+  color:white;
+  background-color:#5E72E3; 
+}
+
+*/
+
